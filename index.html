@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>Завдання 1</h2>
+        <p class="timer">Залишилось: 3 хвилини</p>
+
+
+    <h2>Завдання 2</h2>
+     <p class="let minutesLeft = 3;
+const minutesDisplay = document.querySelector(".timer"); // Знаходимо елемент
+
+const minutesTimer = setInterval(() => {
+    minutesLeft--;
+
+    
+    if (minutesDisplay) {
+        minutesDisplay.textContent = `Залишилось ${minutesLeft} хвилини`;
+    }
+
+    if (minutesLeft === 1) {
+        alert("Залишилася 1 хвилина");
+    }
+
+}, 60000); 
+">Залишилось: 30 секунд</p>
+        <script type="module" src="./script.js"></script>
+</body>
+</html>
